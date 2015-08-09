@@ -60,6 +60,7 @@ simpleNetwork(revLinks, Source="src", Target="target",
               linkDistance = 50, charge = -200,
               fontSize = "14", textColour="red",
               zoom=TRUE, opacity = 0.8,
+              height=850, width=850,
               linkColour="grey") %>%
 saveNetwork(file = 'american_revolution_network.html')
 
